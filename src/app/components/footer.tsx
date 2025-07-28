@@ -4,7 +4,7 @@ export default function Foot(){
     return(
         <div>
             <Image src={logos} alt="logos"/>
-        <div className="py-14 bg-[#EEEFFB] mt-6 flex justify-center">
+        <div className="py-14 bg-[#EEEFFB] mt-6 flex justify-center font-josefin">
             
             <div className="text-[#8A8FB9] grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4 w-full px-6 lg:px-20"><div>
                 

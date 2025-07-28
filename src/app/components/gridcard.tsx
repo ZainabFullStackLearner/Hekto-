@@ -25,13 +25,15 @@ const GridCard: React.FC<Cardtype> = ({
   ],
 }) => {
   return (
-    <div className="w-[270px] h-[303px] bg-white mb-2 shadow-md hover:shadow-lg transition-shadow">
+    <div className="w-[270px] h-[323px] bg-white mb-2 transition-shadow">
       <div className="group border relative">
-        <div className="relative px-10 py-[16px] rounded-lg overflow-hidden bg-slate-200 w-[270px] h-[210px]">
+        <div className="relative px-10 py-[16px] rounded-lg overflow-hidden bg-slate-200 w-[270px] h-[230px]">
           {/* Image */}
           <Image
             src={image}
             alt={title}
+            width={180}
+            height={180}
             className="group-hover:scale-105 max-w-[200px] transition-transform duration-300"
           />
 
